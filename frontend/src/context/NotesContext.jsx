@@ -3,7 +3,7 @@ import io from "socket.io-client";
 
 const NotesContext = createContext();
 
-const socket = io("http://localhost:5000");
+const socket = io("https://noteapp-lax4.onrender.com");
 
 export const NotesProvider = ({ children }) => {
   const [room, setRoom] = useState(null);
