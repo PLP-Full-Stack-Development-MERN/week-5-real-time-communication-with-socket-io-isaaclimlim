@@ -14,7 +14,7 @@ function NoteRoom() {
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
       <h2 className="text-2xl font-bold mb-4">Room: {roomId}</h2>
       <textarea
-        className="w-3/4 h-64 p-3 border border-gray-700 rounded-md text-black"
+        className="w-3/4 h-64 p-3 border border-gray-700 rounded-md text-white"
         value={note}
         onChange={(e) => updateNote(e.target.value)}
       />
